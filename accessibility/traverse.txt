@@ -1,0 +1,755 @@
+Visiting :
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]:
+{
+    "role": "link",
+    "name": "Skip to main content"
+}
+Visiting /undefined[generic]:
+{
+    "role": "banner"
+}
+Visiting /undefined[generic]/undefined[banner]:
+{
+    "role": "paragraph",
+    "text": "Accessibility playground"
+}
+Visiting /undefined[generic]/undefined[banner]:
+{
+    "role": "navigation",
+    "name": "Main navigation"
+}
+Visiting /undefined[generic]/undefined[banner]/Main navigation[navigation]:
+{
+    "role": "link",
+    "name": "Playground"
+}
+Visiting /undefined[generic]/undefined[banner]/Main navigation[navigation]:
+{
+    "role": "link",
+    "name": "Help and support"
+}
+Visiting /undefined[generic]/undefined[banner]/Main navigation[navigation]:
+{
+    "role": "link",
+    "name": "Download bot tasks"
+}
+Visiting /undefined[generic]:
+{
+    "role": "main"
+}
+Visiting /undefined[generic]/undefined[main]:
+{
+    "role": "heading",
+    "name": "Try a little of everything"
+}
+Visiting /undefined[generic]/undefined[main]:
+{
+    "role": "paragraph",
+    "text": "Practice forms, filters, shopping, dialogs, and navigation. Every control has a visible label and real local behavior."
+}
+Visiting /undefined[generic]/undefined[main]:
+{
+    "role": "paragraph",
+    "text": "Use fictional information. Nothing is submitted to a server. Changes reset on reload or when navigating to the help page."
+}
+Visiting /undefined[generic]/undefined[main]:
+{
+    "role": "navigation",
+    "name": "On this page"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Profile"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Preferences"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Workshop"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Shop"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Checklist"
+}
+Visiting /undefined[generic]/undefined[main]/On this page[navigation]:
+{
+    "role": "link",
+    "name": "Buttons and dialogs"
+}
+Visiting /undefined[generic]/undefined[main]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Your profile"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "form",
+    "name": "Profile"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "paragraph",
+    "text": "All profile fields are required."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "generic",
+    "text": "Full name"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "textbox",
+    "name": "Full name"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "generic",
+    "text": "Email address"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "textbox",
+    "name": "Email address"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "generic",
+    "text": "Short biography"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "textbox",
+    "name": "Short biography"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Profile[form]:
+{
+    "role": "button",
+    "name": "Save profile"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Preferences"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "form",
+    "name": "Preferences"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "generic",
+    "text": "Language"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "combobox",
+    "name": "Language"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Language[combobox]:
+{
+    "role": "option",
+    "name": "English"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Language[combobox]:
+{
+    "role": "option",
+    "name": "Spanish"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Language[combobox]:
+{
+    "role": "option",
+    "name": "French"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "group",
+    "name": "Email frequency"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{
+    "role": "radio",
+    "name": "Daily"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{
+    "role": "radio",
+    "name": "Weekly"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{
+    "role": "radio",
+    "name": "Never"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Email frequency[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "group",
+    "name": "Topics of interest"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Technology"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Travel"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Cooking"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/Topics of interest[group]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Enable notifications"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "generic",
+    "text": "Notification volume: 40%"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "slider",
+    "name": "Notification volume: 40%",
+    "text": "40"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Preferences[form]:
+{
+    "role": "button",
+    "name": "Save preferences"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Book a workshop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "form",
+    "name": "Workshop booking"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "paragraph",
+    "text": "All displayed fields and the agreement are required."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic",
+    "text": "Workshop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "combobox",
+    "name": "Workshop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Workshop[combobox]:
+{
+    "role": "option",
+    "name": "Choose a workshop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Workshop[combobox]:
+{
+    "role": "option",
+    "name": "Accessible design"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Workshop[combobox]:
+{
+    "role": "option",
+    "name": "React basics"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Workshop[combobox]:
+{
+    "role": "option",
+    "name": "Testing with bots"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic",
+    "text": "Workshop date"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "textbox",
+    "name": "Workshop date"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic",
+    "text": "Start time"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "textbox",
+    "name": "Start time"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic",
+    "text": "Number of guests"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "spinbutton",
+    "name": "Number of guests",
+    "text": "1"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "paragraph",
+    "text": "Choose between 1 and 6 guests."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic",
+    "text": "Attendance"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "combobox",
+    "name": "Attendance"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Attendance[combobox]:
+{
+    "role": "option",
+    "name": "Online"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/Attendance[combobox]:
+{
+    "role": "option",
+    "name": "In person"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "I agree to the workshop terms"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Workshop booking[form]:
+{
+    "role": "button",
+    "name": "Book workshop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Task checklist"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "form",
+    "name": "Add a task"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Add a task[form]:
+{
+    "role": "generic",
+    "text": "New task"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Add a task[form]:
+{
+    "role": "textbox",
+    "name": "New task"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Add a task[form]:
+{
+    "role": "button",
+    "name": "Add task"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "list",
+    "name": "Tasks"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Read the help page"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]/undefined[generic]:
+{
+    "role": "checkbox",
+    "name": "Try the shop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Tasks[list]/undefined[listitem]/undefined[generic]:
+{}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "paragraph",
+    "text": "0 of 2 tasks complete."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Small shop"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "search",
+    "name": "Product filters"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "generic",
+    "text": "Search products"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "searchbox",
+    "name": "Search products"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "generic",
+    "text": "Product category"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "combobox",
+    "name": "Product category"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]/Product category[combobox]:
+{
+    "role": "option",
+    "name": "All"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]/Product category[combobox]:
+{
+    "role": "option",
+    "name": "Stationery"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]/Product category[combobox]:
+{
+    "role": "option",
+    "name": "Home"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "generic",
+    "text": "Sort products"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]:
+{
+    "role": "combobox",
+    "name": "Sort products"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]/Sort products[combobox]:
+{
+    "role": "option",
+    "name": "Name"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Product filters[search]/undefined[generic]/Sort products[combobox]:
+{
+    "role": "option",
+    "name": "Price: low to high"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status",
+    "text": "4 products found."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "list",
+    "name": "Products"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "heading",
+    "name": "Desk planner"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "paragraph",
+    "text": "Stationery / $12"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "button",
+    "name": "Add Desk planner to cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "heading",
+    "name": "Pocket notebook"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "paragraph",
+    "text": "Stationery / $6"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "button",
+    "name": "Add Pocket notebook to cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "heading",
+    "name": "Reading lamp"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "paragraph",
+    "text": "Home / $32"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "button",
+    "name": "Add Reading lamp to cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]:
+{
+    "role": "listitem"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "heading",
+    "name": "Travel mug"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "paragraph",
+    "text": "Home / $18"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/Products[list]/undefined[listitem]:
+{
+    "role": "button",
+    "name": "Add Travel mug to cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Shopping cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[region]:
+{
+    "role": "paragraph",
+    "text": "Your cart is empty."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[region]:
+{
+    "role": "paragraph",
+    "text": "Cart total: $0. Items: 0."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[region]:
+{
+    "role": "button",
+    "name": "Clear cart"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]:
+{
+    "role": "region"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "heading",
+    "name": "Buttons and dialogs"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "paragraph",
+    "text": "Counter value: 0."
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "generic"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[generic]:
+{
+    "role": "button",
+    "name": "Increase counter"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[generic]:
+{
+    "role": "button",
+    "name": "Decrease counter"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[generic]:
+{
+    "role": "button",
+    "name": "Reset counter"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[generic]:
+{
+    "role": "button",
+    "name": "Favorite this playground"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]/undefined[generic]:
+{
+    "role": "button",
+    "name": "Reset playground controls"
+}
+Visiting /undefined[generic]/undefined[main]/undefined[generic]/undefined[region]:
+{
+    "role": "status"
+}
+Visiting /undefined[generic]:
+{
+    "role": "contentinfo"
+}
+Visiting /undefined[generic]/undefined[contentinfo]:
+{
+    "role": "paragraph"
+}
+Visiting /undefined[generic]/undefined[contentinfo]/undefined[paragraph]:
+{}
+Visiting /undefined[generic]/undefined[contentinfo]/undefined[paragraph]:
+{
+    "role": "link",
+    "name": "Back to main content"
+}

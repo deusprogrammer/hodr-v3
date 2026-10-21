@@ -1,0 +1,990 @@
+{
+    "e2": {
+        "role": "generic",
+        "ref": "e2",
+        "parentRef": "root"
+    },
+    "e3": {
+        "role": "link",
+        "name": "Skip to main content",
+        "ref": "e3",
+        "cursor": "pointer",
+        "url": "#main",
+        "parentRef": "e2"
+    },
+    "e4": {
+        "role": "banner",
+        "ref": "e4",
+        "parentRef": "e2"
+    },
+    "e5": {
+        "role": "paragraph",
+        "ref": "e5",
+        "text": "Accessibility playground",
+        "parentRef": "e4"
+    },
+    "e6": {
+        "role": "navigation",
+        "name": "Main navigation",
+        "ref": "e6",
+        "parentRef": "e4"
+    },
+    "e7": {
+        "role": "link",
+        "name": "Playground",
+        "ref": "e7",
+        "cursor": "pointer",
+        "url": "./index.html",
+        "parentRef": "e6"
+    },
+    "e8": {
+        "role": "link",
+        "name": "Help and support",
+        "ref": "e8",
+        "cursor": "pointer",
+        "url": "./help.html",
+        "parentRef": "e6"
+    },
+    "e9": {
+        "role": "link",
+        "name": "Download bot tasks",
+        "ref": "e9",
+        "cursor": "pointer",
+        "url": "./bot-tasks.txt",
+        "parentRef": "e6"
+    },
+    "e10": {
+        "role": "main",
+        "ref": "e10",
+        "parentRef": "e2"
+    },
+    "e11": {
+        "role": "heading",
+        "name": "Try a little of everything",
+        "level": 1,
+        "ref": "e11",
+        "parentRef": "e10"
+    },
+    "e12": {
+        "role": "paragraph",
+        "ref": "e12",
+        "text": "Practice forms, filters, shopping, dialogs, and navigation. Every control has a visible label and real local behavior.",
+        "parentRef": "e10"
+    },
+    "e13": {
+        "role": "paragraph",
+        "ref": "e13",
+        "text": "Use fictional information. Nothing is submitted to a server. Changes reset on reload or when navigating to the help page.",
+        "parentRef": "e10"
+    },
+    "e14": {
+        "role": "navigation",
+        "name": "On this page",
+        "ref": "e14",
+        "parentRef": "e10"
+    },
+    "e15": {
+        "role": "link",
+        "name": "Profile",
+        "ref": "e15",
+        "cursor": "pointer",
+        "url": "#profile-heading",
+        "parentRef": "e14"
+    },
+    "e16": {
+        "role": "link",
+        "name": "Preferences",
+        "ref": "e16",
+        "cursor": "pointer",
+        "url": "#preferences-heading",
+        "parentRef": "e14"
+    },
+    "e17": {
+        "role": "link",
+        "name": "Workshop",
+        "ref": "e17",
+        "cursor": "pointer",
+        "url": "#booking-heading",
+        "parentRef": "e14"
+    },
+    "e18": {
+        "role": "link",
+        "name": "Shop",
+        "ref": "e18",
+        "cursor": "pointer",
+        "url": "#shop",
+        "parentRef": "e14"
+    },
+    "e19": {
+        "role": "link",
+        "name": "Checklist",
+        "ref": "e19",
+        "cursor": "pointer",
+        "url": "#tasks-heading",
+        "parentRef": "e14"
+    },
+    "e20": {
+        "role": "link",
+        "name": "Buttons and dialogs",
+        "ref": "e20",
+        "cursor": "pointer",
+        "url": "#controls-heading",
+        "parentRef": "e14"
+    },
+    "e21": {
+        "role": "generic",
+        "ref": "e21",
+        "parentRef": "e10"
+    },
+    "e22": {
+        "role": "region",
+        "ref": "e22",
+        "parentRef": "e21"
+    },
+    "e23": {
+        "role": "heading",
+        "name": "Your profile",
+        "level": 2,
+        "ref": "e23",
+        "parentRef": "e22"
+    },
+    "e24": {
+        "role": "form",
+        "name": "Profile",
+        "ref": "e24",
+        "parentRef": "e22"
+    },
+    "e25": {
+        "role": "paragraph",
+        "ref": "e25",
+        "text": "All profile fields are required.",
+        "parentRef": "e24"
+    },
+    "e26": {
+        "role": "generic",
+        "ref": "e26",
+        "text": "Full name",
+        "parentRef": "e24"
+    },
+    "e27": {
+        "role": "textbox",
+        "name": "Full name",
+        "ref": "e27",
+        "parentRef": "e24"
+    },
+    "e28": {
+        "role": "generic",
+        "ref": "e28",
+        "text": "Email address",
+        "parentRef": "e24"
+    },
+    "e29": {
+        "role": "textbox",
+        "name": "Email address",
+        "ref": "e29",
+        "parentRef": "e24"
+    },
+    "e30": {
+        "role": "generic",
+        "ref": "e30",
+        "text": "Short biography",
+        "parentRef": "e24"
+    },
+    "e31": {
+        "role": "textbox",
+        "name": "Short biography",
+        "ref": "e31",
+        "parentRef": "e24"
+    },
+    "e32": {
+        "role": "button",
+        "name": "Save profile",
+        "ref": "e32",
+        "cursor": "pointer",
+        "parentRef": "e24"
+    },
+    "local:0": {
+        "role": "status",
+        "parentRef": "e22"
+    },
+    "e33": {
+        "role": "region",
+        "ref": "e33",
+        "parentRef": "e21"
+    },
+    "e34": {
+        "role": "heading",
+        "name": "Preferences",
+        "level": 2,
+        "ref": "e34",
+        "parentRef": "e33"
+    },
+    "e35": {
+        "role": "form",
+        "name": "Preferences",
+        "ref": "e35",
+        "parentRef": "e33"
+    },
+    "e36": {
+        "role": "generic",
+        "ref": "e36",
+        "text": "Language",
+        "parentRef": "e35"
+    },
+    "e37": {
+        "role": "combobox",
+        "name": "Language",
+        "ref": "e37",
+        "parentRef": "e35"
+    },
+    "local:1": {
+        "role": "option",
+        "name": "English",
+        "selected": true,
+        "parentRef": "e37"
+    },
+    "local:2": {
+        "role": "option",
+        "name": "Spanish",
+        "parentRef": "e37"
+    },
+    "local:3": {
+        "role": "option",
+        "name": "French",
+        "parentRef": "e37"
+    },
+    "e38": {
+        "role": "group",
+        "name": "Email frequency",
+        "ref": "e38",
+        "parentRef": "e35"
+    },
+    "e40": {
+        "role": "generic",
+        "ref": "e40",
+        "cursor": "pointer",
+        "parentRef": "e38"
+    },
+    "e41": {
+        "role": "radio",
+        "name": "Daily",
+        "ref": "e41",
+        "parentRef": "e40"
+    },
+    "local:4": {
+        "role": "text",
+        "text": "Daily",
+        "parentRef": "e40"
+    },
+    "e42": {
+        "role": "generic",
+        "ref": "e42",
+        "cursor": "pointer",
+        "parentRef": "e38"
+    },
+    "e43": {
+        "role": "radio",
+        "name": "Weekly",
+        "checked": true,
+        "ref": "e43",
+        "parentRef": "e42"
+    },
+    "local:5": {
+        "role": "text",
+        "text": "Weekly",
+        "parentRef": "e42"
+    },
+    "e44": {
+        "role": "generic",
+        "ref": "e44",
+        "cursor": "pointer",
+        "parentRef": "e38"
+    },
+    "e45": {
+        "role": "radio",
+        "name": "Never",
+        "ref": "e45",
+        "parentRef": "e44"
+    },
+    "local:6": {
+        "role": "text",
+        "text": "Never",
+        "parentRef": "e44"
+    },
+    "e46": {
+        "role": "group",
+        "name": "Topics of interest",
+        "ref": "e46",
+        "parentRef": "e35"
+    },
+    "e48": {
+        "role": "generic",
+        "ref": "e48",
+        "cursor": "pointer",
+        "parentRef": "e46"
+    },
+    "e49": {
+        "role": "checkbox",
+        "name": "Technology",
+        "ref": "e49",
+        "parentRef": "e48"
+    },
+    "local:7": {
+        "role": "text",
+        "text": "Technology",
+        "parentRef": "e48"
+    },
+    "e50": {
+        "role": "generic",
+        "ref": "e50",
+        "cursor": "pointer",
+        "parentRef": "e46"
+    },
+    "e51": {
+        "role": "checkbox",
+        "name": "Travel",
+        "ref": "e51",
+        "parentRef": "e50"
+    },
+    "local:8": {
+        "role": "text",
+        "text": "Travel",
+        "parentRef": "e50"
+    },
+    "e52": {
+        "role": "generic",
+        "ref": "e52",
+        "cursor": "pointer",
+        "parentRef": "e46"
+    },
+    "e53": {
+        "role": "checkbox",
+        "name": "Cooking",
+        "ref": "e53",
+        "parentRef": "e52"
+    },
+    "local:9": {
+        "role": "text",
+        "text": "Cooking",
+        "parentRef": "e52"
+    },
+    "e54": {
+        "role": "generic",
+        "ref": "e54",
+        "cursor": "pointer",
+        "parentRef": "e35"
+    },
+    "e55": {
+        "role": "checkbox",
+        "name": "Enable notifications",
+        "checked": true,
+        "ref": "e55",
+        "parentRef": "e54"
+    },
+    "local:10": {
+        "role": "text",
+        "text": "Enable notifications",
+        "parentRef": "e54"
+    },
+    "e56": {
+        "role": "generic",
+        "ref": "e56",
+        "text": "Notification volume: 40%",
+        "parentRef": "e35"
+    },
+    "e57": {
+        "role": "slider",
+        "name": "Notification volume: 40%",
+        "ref": "e57",
+        "text": "40",
+        "parentRef": "e35"
+    },
+    "e58": {
+        "role": "button",
+        "name": "Save preferences",
+        "ref": "e58",
+        "cursor": "pointer",
+        "parentRef": "e35"
+    },
+    "local:11": {
+        "role": "status",
+        "parentRef": "e33"
+    },
+    "e59": {
+        "role": "region",
+        "ref": "e59",
+        "parentRef": "e21"
+    },
+    "e60": {
+        "role": "heading",
+        "name": "Book a workshop",
+        "level": 2,
+        "ref": "e60",
+        "parentRef": "e59"
+    },
+    "e61": {
+        "role": "form",
+        "name": "Workshop booking",
+        "ref": "e61",
+        "parentRef": "e59"
+    },
+    "e62": {
+        "role": "paragraph",
+        "ref": "e62",
+        "text": "All displayed fields and the agreement are required.",
+        "parentRef": "e61"
+    },
+    "e63": {
+        "role": "generic",
+        "ref": "e63",
+        "text": "Workshop",
+        "parentRef": "e61"
+    },
+    "e64": {
+        "role": "combobox",
+        "name": "Workshop",
+        "ref": "e64",
+        "parentRef": "e61"
+    },
+    "local:12": {
+        "role": "option",
+        "name": "Choose a workshop",
+        "disabled": true,
+        "selected": true,
+        "parentRef": "e64"
+    },
+    "local:13": {
+        "role": "option",
+        "name": "Accessible design",
+        "parentRef": "e64"
+    },
+    "local:14": {
+        "role": "option",
+        "name": "React basics",
+        "parentRef": "e64"
+    },
+    "local:15": {
+        "role": "option",
+        "name": "Testing with bots",
+        "parentRef": "e64"
+    },
+    "e65": {
+        "role": "generic",
+        "ref": "e65",
+        "text": "Workshop date",
+        "parentRef": "e61"
+    },
+    "e66": {
+        "role": "textbox",
+        "name": "Workshop date",
+        "ref": "e66",
+        "parentRef": "e61"
+    },
+    "e67": {
+        "role": "generic",
+        "ref": "e67",
+        "text": "Start time",
+        "parentRef": "e61"
+    },
+    "e68": {
+        "role": "textbox",
+        "name": "Start time",
+        "ref": "e68",
+        "parentRef": "e61"
+    },
+    "e69": {
+        "role": "generic",
+        "ref": "e69",
+        "text": "Number of guests",
+        "parentRef": "e61"
+    },
+    "e70": {
+        "role": "spinbutton",
+        "name": "Number of guests",
+        "ref": "e70",
+        "text": "1",
+        "parentRef": "e61"
+    },
+    "e71": {
+        "role": "paragraph",
+        "ref": "e71",
+        "text": "Choose between 1 and 6 guests.",
+        "parentRef": "e61"
+    },
+    "e72": {
+        "role": "generic",
+        "ref": "e72",
+        "text": "Attendance",
+        "parentRef": "e61"
+    },
+    "e73": {
+        "role": "combobox",
+        "name": "Attendance",
+        "ref": "e73",
+        "parentRef": "e61"
+    },
+    "local:16": {
+        "role": "option",
+        "name": "Online",
+        "selected": true,
+        "parentRef": "e73"
+    },
+    "local:17": {
+        "role": "option",
+        "name": "In person",
+        "parentRef": "e73"
+    },
+    "e74": {
+        "role": "generic",
+        "ref": "e74",
+        "cursor": "pointer",
+        "parentRef": "e61"
+    },
+    "e75": {
+        "role": "checkbox",
+        "name": "I agree to the workshop terms",
+        "ref": "e75",
+        "parentRef": "e74"
+    },
+    "local:18": {
+        "role": "text",
+        "text": "I agree to the workshop terms",
+        "parentRef": "e74"
+    },
+    "e76": {
+        "role": "button",
+        "name": "Book workshop",
+        "ref": "e76",
+        "cursor": "pointer",
+        "parentRef": "e61"
+    },
+    "local:19": {
+        "role": "status",
+        "parentRef": "e59"
+    },
+    "e77": {
+        "role": "region",
+        "ref": "e77",
+        "parentRef": "e21"
+    },
+    "e78": {
+        "role": "heading",
+        "name": "Task checklist",
+        "level": 2,
+        "ref": "e78",
+        "parentRef": "e77"
+    },
+    "e79": {
+        "role": "form",
+        "name": "Add a task",
+        "ref": "e79",
+        "parentRef": "e77"
+    },
+    "e80": {
+        "role": "generic",
+        "ref": "e80",
+        "text": "New task",
+        "parentRef": "e79"
+    },
+    "e81": {
+        "role": "textbox",
+        "name": "New task",
+        "ref": "e81",
+        "parentRef": "e79"
+    },
+    "e82": {
+        "role": "button",
+        "name": "Add task",
+        "ref": "e82",
+        "cursor": "pointer",
+        "parentRef": "e79"
+    },
+    "e83": {
+        "role": "list",
+        "name": "Tasks",
+        "ref": "e83",
+        "parentRef": "e77"
+    },
+    "e84": {
+        "role": "listitem",
+        "ref": "e84",
+        "parentRef": "e83"
+    },
+    "e85": {
+        "role": "generic",
+        "ref": "e85",
+        "cursor": "pointer",
+        "parentRef": "e84"
+    },
+    "e86": {
+        "role": "checkbox",
+        "name": "Read the help page",
+        "ref": "e86",
+        "parentRef": "e85"
+    },
+    "local:20": {
+        "role": "text",
+        "text": "Read the help page",
+        "parentRef": "e85"
+    },
+    "e87": {
+        "role": "listitem",
+        "ref": "e87",
+        "parentRef": "e83"
+    },
+    "e88": {
+        "role": "generic",
+        "ref": "e88",
+        "cursor": "pointer",
+        "parentRef": "e87"
+    },
+    "e89": {
+        "role": "checkbox",
+        "name": "Try the shop",
+        "ref": "e89",
+        "parentRef": "e88"
+    },
+    "local:21": {
+        "role": "text",
+        "text": "Try the shop",
+        "parentRef": "e88"
+    },
+    "e90": {
+        "role": "paragraph",
+        "ref": "e90",
+        "text": "0 of 2 tasks complete.",
+        "parentRef": "e77"
+    },
+    "local:22": {
+        "role": "status",
+        "parentRef": "e77"
+    },
+    "e91": {
+        "role": "region",
+        "ref": "e91",
+        "parentRef": "e21"
+    },
+    "e92": {
+        "role": "heading",
+        "name": "Small shop",
+        "level": 2,
+        "ref": "e92",
+        "parentRef": "e91"
+    },
+    "e93": {
+        "role": "search",
+        "name": "Product filters",
+        "ref": "e93",
+        "parentRef": "e91"
+    },
+    "e94": {
+        "role": "generic",
+        "ref": "e94",
+        "parentRef": "e93"
+    },
+    "e95": {
+        "role": "generic",
+        "ref": "e95",
+        "text": "Search products",
+        "parentRef": "e94"
+    },
+    "e96": {
+        "role": "searchbox",
+        "name": "Search products",
+        "ref": "e96",
+        "parentRef": "e94"
+    },
+    "e97": {
+        "role": "generic",
+        "ref": "e97",
+        "parentRef": "e93"
+    },
+    "e98": {
+        "role": "generic",
+        "ref": "e98",
+        "text": "Product category",
+        "parentRef": "e97"
+    },
+    "e99": {
+        "role": "combobox",
+        "name": "Product category",
+        "ref": "e99",
+        "parentRef": "e97"
+    },
+    "local:23": {
+        "role": "option",
+        "name": "All",
+        "selected": true,
+        "parentRef": "e99"
+    },
+    "local:24": {
+        "role": "option",
+        "name": "Stationery",
+        "parentRef": "e99"
+    },
+    "local:25": {
+        "role": "option",
+        "name": "Home",
+        "parentRef": "e99"
+    },
+    "e100": {
+        "role": "generic",
+        "ref": "e100",
+        "parentRef": "e93"
+    },
+    "e101": {
+        "role": "generic",
+        "ref": "e101",
+        "text": "Sort products",
+        "parentRef": "e100"
+    },
+    "e102": {
+        "role": "combobox",
+        "name": "Sort products",
+        "ref": "e102",
+        "parentRef": "e100"
+    },
+    "local:26": {
+        "role": "option",
+        "name": "Name",
+        "selected": true,
+        "parentRef": "e102"
+    },
+    "local:27": {
+        "role": "option",
+        "name": "Price: low to high",
+        "parentRef": "e102"
+    },
+    "e103": {
+        "role": "status",
+        "ref": "e103",
+        "text": "4 products found.",
+        "parentRef": "e91"
+    },
+    "e104": {
+        "role": "list",
+        "name": "Products",
+        "ref": "e104",
+        "parentRef": "e91"
+    },
+    "e105": {
+        "role": "listitem",
+        "ref": "e105",
+        "parentRef": "e104"
+    },
+    "e106": {
+        "role": "heading",
+        "name": "Desk planner",
+        "level": 3,
+        "ref": "e106",
+        "parentRef": "e105"
+    },
+    "e107": {
+        "role": "paragraph",
+        "ref": "e107",
+        "text": "Stationery / $12",
+        "parentRef": "e105"
+    },
+    "e108": {
+        "role": "button",
+        "name": "Add Desk planner to cart",
+        "ref": "e108",
+        "cursor": "pointer",
+        "parentRef": "e105"
+    },
+    "e109": {
+        "role": "listitem",
+        "ref": "e109",
+        "parentRef": "e104"
+    },
+    "e110": {
+        "role": "heading",
+        "name": "Pocket notebook",
+        "level": 3,
+        "ref": "e110",
+        "parentRef": "e109"
+    },
+    "e111": {
+        "role": "paragraph",
+        "ref": "e111",
+        "text": "Stationery / $6",
+        "parentRef": "e109"
+    },
+    "e112": {
+        "role": "button",
+        "name": "Add Pocket notebook to cart",
+        "ref": "e112",
+        "cursor": "pointer",
+        "parentRef": "e109"
+    },
+    "e113": {
+        "role": "listitem",
+        "ref": "e113",
+        "parentRef": "e104"
+    },
+    "e114": {
+        "role": "heading",
+        "name": "Reading lamp",
+        "level": 3,
+        "ref": "e114",
+        "parentRef": "e113"
+    },
+    "e115": {
+        "role": "paragraph",
+        "ref": "e115",
+        "text": "Home / $32",
+        "parentRef": "e113"
+    },
+    "e116": {
+        "role": "button",
+        "name": "Add Reading lamp to cart",
+        "ref": "e116",
+        "cursor": "pointer",
+        "parentRef": "e113"
+    },
+    "e117": {
+        "role": "listitem",
+        "ref": "e117",
+        "parentRef": "e104"
+    },
+    "e118": {
+        "role": "heading",
+        "name": "Travel mug",
+        "level": 3,
+        "ref": "e118",
+        "parentRef": "e117"
+    },
+    "e119": {
+        "role": "paragraph",
+        "ref": "e119",
+        "text": "Home / $18",
+        "parentRef": "e117"
+    },
+    "e120": {
+        "role": "button",
+        "name": "Add Travel mug to cart",
+        "ref": "e120",
+        "cursor": "pointer",
+        "parentRef": "e117"
+    },
+    "e121": {
+        "role": "region",
+        "ref": "e121",
+        "parentRef": "e91"
+    },
+    "e122": {
+        "role": "heading",
+        "name": "Shopping cart",
+        "level": 3,
+        "ref": "e122",
+        "parentRef": "e121"
+    },
+    "e123": {
+        "role": "paragraph",
+        "ref": "e123",
+        "text": "Your cart is empty.",
+        "parentRef": "e121"
+    },
+    "e124": {
+        "role": "paragraph",
+        "ref": "e124",
+        "text": "Cart total: $0. Items: 0.",
+        "parentRef": "e121"
+    },
+    "e125": {
+        "role": "button",
+        "name": "Clear cart",
+        "disabled": true,
+        "ref": "e125",
+        "parentRef": "e121"
+    },
+    "local:28": {
+        "role": "status",
+        "parentRef": "e121"
+    },
+    "e126": {
+        "role": "region",
+        "ref": "e126",
+        "parentRef": "e21"
+    },
+    "e127": {
+        "role": "heading",
+        "name": "Buttons and dialogs",
+        "level": 2,
+        "ref": "e127",
+        "parentRef": "e126"
+    },
+    "e128": {
+        "role": "paragraph",
+        "ref": "e128",
+        "text": "Counter value: 0.",
+        "parentRef": "e126"
+    },
+    "e129": {
+        "role": "generic",
+        "ref": "e129",
+        "parentRef": "e126"
+    },
+    "e130": {
+        "role": "button",
+        "name": "Increase counter",
+        "ref": "e130",
+        "cursor": "pointer",
+        "parentRef": "e129"
+    },
+    "e131": {
+        "role": "button",
+        "name": "Decrease counter",
+        "disabled": true,
+        "ref": "e131",
+        "parentRef": "e129"
+    },
+    "e132": {
+        "role": "button",
+        "name": "Reset counter",
+        "ref": "e132",
+        "cursor": "pointer",
+        "parentRef": "e129"
+    },
+    "e133": {
+        "role": "button",
+        "name": "Favorite this playground",
+        "ref": "e133",
+        "cursor": "pointer",
+        "parentRef": "e129"
+    },
+    "e134": {
+        "role": "button",
+        "name": "Reset playground controls",
+        "ref": "e134",
+        "cursor": "pointer",
+        "parentRef": "e129"
+    },
+    "local:29": {
+        "role": "status",
+        "parentRef": "e126"
+    },
+    "e135": {
+        "role": "contentinfo",
+        "ref": "e135",
+        "parentRef": "e2"
+    },
+    "e136": {
+        "role": "paragraph",
+        "ref": "e136",
+        "parentRef": "e135"
+    },
+    "local:30": {
+        "role": "text",
+        "text": "Local-only test site.",
+        "parentRef": "e136"
+    },
+    "e137": {
+        "role": "link",
+        "name": "Back to main content",
+        "ref": "e137",
+        "cursor": "pointer",
+        "url": "#main",
+        "parentRef": "e136"
+    }
+}

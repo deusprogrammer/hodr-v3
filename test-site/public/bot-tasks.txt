@@ -1,0 +1,114 @@
+ACCESSIBILITY PLAYGROUND: BOT TASKS
+
+Rules for the bot:
+Use only the accessibility tree to discover content, names, roles, values,
+states, and relationships. Interact using accessible roles/names and keyboard
+actions. Do not inspect HTML, CSS selectors, application code, or hidden state.
+Verify each result using visible or accessibility-tree content.
+Use fictional information only.
+
+Setup:
+Start on the Playground page for each independent task. Reload between tasks
+unless a task explicitly asks you to keep working with its existing state.
+All state is local to the current page. Reloading or following a link to
+another page resets it. Support submissions do not contact a real server.
+Date and time inputs may have browser-specific accessible subcontrols; use
+their labels and keyboard controls rather than relying on a visual format.
+
+PROFILE
+1. Save a profile for Alex Morgan, email alex@example.com, biography
+   "I test accessible interfaces." Verify all three values in Saved profile.
+2. Save a profile, change its biography, and save again. Verify the saved
+   summary contains the new biography.
+3. Attempt to save an empty profile. Verify required-field validation prevents
+   a saved summary. Then provide valid values and save successfully.
+4. Enter "not-an-email" as the email with other required fields filled. Try to
+   save. Correct the email to sam@example.com and confirm successful saving.
+
+PREFERENCES
+5. Set Language to Spanish, Email frequency to Daily, select Technology and
+   Travel, turn notifications off, and save. Verify the saved summary.
+6. Set Notification volume to 70 percent using keyboard interaction. Save
+   preferences and confirm the summary reports 70%.
+7. Choose Never for Email frequency and select no topics. Save and verify
+   Updates: Never and Topics: none.
+8. Turn notifications off and back on. Choose French and Cooking, then save.
+   Verify the final state, not the intermediate state.
+
+WORKSHOP BOOKING
+9. Book React basics on 2030-06-15 at 10:30 for 2 guests, online. Agree to the
+   terms and verify the full booking confirmation.
+10. Choose Testing with bots, 2030-07-20 at 14:00, 4 guests, In person, and
+    South studio. Agree to the terms, submit, and verify the location.
+11. Change Attendance to In person and locate the revealed Location control.
+    Switch back to Online and verify Location is no longer available.
+12. Fill out a booking without agreeing to the terms. Attempt submission and
+    verify there is no confirmation. Agree and successfully submit.
+13. Attempt a booking with 7 guests. Correct the number to 6 and complete a
+    valid booking. Verify the confirmation has 6 guests.
+
+SHOP
+14. Search for "mug". Verify only Travel mug is listed, then add it to the
+    cart. Verify quantity 1 and a cart total of $18.
+15. Filter to Stationery and sort by Price: low to high. Verify Pocket
+    notebook comes before Desk planner and there are 2 products.
+16. Add Pocket notebook twice and Travel mug once. Verify 3 items and a $30
+    total. Remove one Pocket notebook and verify 2 items and a $24 total.
+17. Add Reading lamp and Desk planner. Clear the cart. Verify it is empty,
+    its total is $0, and Clear cart is disabled.
+18. Search for "spaceship". Verify no matching products and a count of 0.
+    Clear the search and verify all 4 products return.
+19. Select Home, then search for "notebook". Verify no results. Change the
+    category to All and verify Pocket notebook appears.
+
+CHECKLIST
+20. Add a task named "Review accessibility labels". Verify it appears as an
+    unchecked checkbox and the completed count is 0 of 3.
+21. Mark both initial tasks complete. Verify 2 of 2 tasks complete. Uncheck
+    Try the shop and verify 1 of 2 tasks complete.
+22. Add "Send report", mark it complete, and verify 1 of 3 tasks complete.
+23. Try adding a task made entirely of spaces. Verify an explanatory message
+    appears and the task count does not change.
+
+BUTTONS AND DIALOGS
+24. Increase the counter three times, decrease it once, and verify value 2.
+    Reset the counter and verify value 0 and Decrease counter is disabled.
+25. Toggle Favorite this playground on and off. Verify its pressed state
+    changes to true and then false.
+26. Set the counter to 2 and favorite the playground. Open Reset playground
+    controls. Cancel reset. Verify the counter and favorite are unchanged.
+27. Set the counter to 2 and favorite the playground. Open Reset playground
+    controls and Confirm reset. Verify value 0 and favorite not pressed.
+28. Open the reset dialog, press Escape, and verify it closes without
+    changing the counter or favorite. Verify focus returns to its opener.
+29. Add an item to the cart, then confirm a controls reset. Verify the cart
+    was not cleared.
+
+NAVIGATION AND SUPPORT
+30. Follow Help and support. Verify a new page with that heading opens.
+    Follow Playground and verify you return to the main page.
+31. On the help page, expand the cancellation-code question. Report the
+    workshop cancellation code. Collapse it again.
+32. On the help page, choose Accessibility as the support topic, enter
+    tester@example.com as Reply email, and write "Please review keyboard
+    navigation." Send the request and verify all values in the receipt.
+33. Attempt an empty support request. Verify validation prevents a receipt.
+    Then enter valid values and submit successfully.
+34. On the help page, follow Return directly to the shop. Verify the Small
+    shop section is the link destination.
+35. On the main page, follow the on-page Workshop link, then the Shop link.
+    Verify each navigates to its corresponding section.
+36. Expand Where do my changes go? on the help page. Explain the persistence
+    rules using only the text exposed by the accessibility tree.
+
+COMBINED CHALLENGES
+37. Save a profile for Casey Lee (casey@example.com), choose French and Daily
+    updates, book an online Accessible design workshop for 3 guests on
+    2030-08-12 at 09:00, and add a Desk planner. Verify each result.
+38. Find the cheapest product in Home using the category and sort controls.
+    Add two of it and report the cart total.
+39. Find the cancellation code on the help page, then submit it in a
+    Booking support request using bot@example.com as the reply email.
+40. Using keyboard navigation and the accessibility tree only, move through
+    the main page controls, activate the skip link, complete a profile, and
+    confirm the save result without clicking by screen coordinates.
