@@ -1,0 +1,15 @@
+{
+    "name": "Profile (8B, non-thinking)",
+    "env": {
+        "THINKING": false,
+        "EXPLORER_MODEL": "qwen3:8b",
+        "SUBJECT_MODEL": "qwen3:8b",
+        "TRANSLATOR_MODEL": "qwen3:8b"
+    },
+    "steps": [
+        {
+            "url": "http://localhost:5173/",
+            "task": "Create a profile for Alex Morgan and submit it."
+        }
+    ]
+}

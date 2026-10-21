@@ -1,0 +1,23 @@
+{
+    "name": "Shop and task checklist (8B, non-thinking)",
+    "env": {
+        "THINKING": false,
+        "EXPLORER_MODEL": "qwen3:8b",
+        "SUBJECT_MODEL": "qwen3:8b",
+        "TRANSLATOR_MODEL": "qwen3:8b"
+    },
+    "steps": [
+        {
+            "url": "http://localhost:5173/",
+            "task": "Add a Reading lamp to the cart."
+        },
+        {
+            "url": "http://localhost:5173/",
+            "task": "Add a new task called \"Water the plants\" to the task checklist."
+        },
+        {
+            "url": "http://localhost:5173/",
+            "task": "Increase the counter twice and mark the playground as a favorite."
+        }
+    ]
+}

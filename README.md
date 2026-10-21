@@ -31,10 +31,30 @@ cd test-site && npm install && npm run dev
 | --- | --- |
 | `OPENAI_API_KEY` | API key for the model server (any non-empty value for Ollama) |
 | `OPENAI_BASE_URL` | Base URL of the OpenAI-compatible server, e.g. `http://localhost:11434/v1` |
+| `THINKING` | Optional `false` to disable thinking or `true` to enable it; unset preserves the server default |
 | `EXPLORER_MODEL`, `SUBJECT_MODEL`, `TRANSLATOR_MODEL`, `FILTER_MODEL`, `PLANNER_MODEL`, `PROCTOR_MODEL` | Per-agent model overrides; default is `qwen3-8B` |
 
 Any of these can also be set in a test config's `env` object, which overrides `.env` and
 the shell environment.
+
+### Non-thinking runs
+
+The [`.env.non-thinking`](.env.non-thinking) preset targets local Ollama with Qwen 3 8B.
+It contains only a placeholder key, not credentials. Load it instead of `.env` with:
+
+```sh
+DOTENV_CONFIG_PATH=.env.non-thinking npm start -- --headless --config tests/non-thinking/shop-and-tasks.json
+```
+
+The three suites in [`tests/non-thinking/`](tests/non-thinking/) mirror the original
+tasks with `THINKING: false` and explicit 8B model overrides for comparison. They can
+also run with your regular `.env`; JSON overrides still win. JSON accepts booleans or
+the strings `"true"`/`"false"`; env files use `THINKING=false` or `THINKING=true`.
+
+Thinking is sent through the Responses API as `reasoning.effort`: `none` when disabled,
+`medium` when enabled, and omitted when unset. This was verified with local Ollama's
+Qwen 3 8B; other servers/models must support these values. The requested reasoning
+setting is recorded in agent events. Original suites leave it unset.
 
 ## Running tests
 

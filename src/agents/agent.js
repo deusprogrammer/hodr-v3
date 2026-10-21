@@ -20,6 +20,11 @@ export class Agent {
     this.systemPrompt = systemPrompt;
     const envVar = this.constructor.modelEnvVar;
     this.model = (envVar && process.env[envVar]) || DEFAULT_MODEL;
+    const thinking = process.env.THINKING;
+    if (thinking !== undefined && thinking !== 'true' && thinking !== 'false') {
+      throw new Error('THINKING must be "true" or "false".');
+    }
+    this.thinking = thinking === undefined ? undefined : thinking === 'true';
     this.client = new OpenAI({ apiKey });
   }
 
@@ -36,6 +41,9 @@ export class Agent {
   async #respond() {
     const request = {
       model: this.model,
+      ...(this.thinking === undefined ? {} : {
+        reasoning: { effort: this.thinking ? 'medium' : 'none' },
+      }),
       input: [
         { role: 'system', content: this.systemPrompt },
         ...this.messages,
@@ -47,6 +55,7 @@ export class Agent {
       agentId: this.agentId,
       requestId,
       model: this.model,
+      reasoning: request.reasoning,
     };
     this.messageQueue.publish({ ...metadata, type: 'agent.input', input: request.input });
     const started = Date.now();

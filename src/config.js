@@ -27,6 +27,7 @@ Start the target website and configure the model server before running a suite.
 export const envSchema = z.strictObject({
   OPENAI_API_KEY: z.string().optional(),
   OPENAI_BASE_URL: z.string().optional(),
+  THINKING: z.union([z.boolean(), z.enum(['true', 'false'])]).optional(),
   EXPLORER_MODEL: z.string().optional(),
   FILTER_MODEL: z.string().optional(),
   PLANNER_MODEL: z.string().optional(),
@@ -78,6 +79,6 @@ export async function loadTestConfig(path) {
 /** Config values take precedence over existing environment variables. */
 export function applyEnvOverrides(env, target = process.env) {
   for (const [key, value] of Object.entries(env)) {
-    if (value !== undefined) target[key] = value;
+    if (value !== undefined) target[key] = String(value);
   }
 }
