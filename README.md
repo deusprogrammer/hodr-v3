@@ -44,15 +44,35 @@ Test suites are JSON files in [`tests/`](tests/). Run one with:
 npm start -- --config tests/shop-and-tasks.json
 ```
 
+Running `node src/index.js` or `npm start` without arguments displays help without
+starting a test. Use `--help` (or `-h`) to display help explicitly.
+
 | Option | Default | Description |
 | --- | --- | --- |
 | `--config <path>` | `tests/profile.json` | Test config to run |
 | `--reports <dir>` | `reports` | Directory where the run report is written |
 | `--headless` | off | Run without a visible browser window and exit when finished |
+| `--help`, `-h` | off | Show usage and examples, then exit |
 
 Without `--headless`, the browser stays open after the run so you can visually check the
 result; press Enter in the terminal to close it. The process exits non-zero if any step
 fails.
+
+### Run metrics
+
+At the end of every run, the runner prints a metrics summary, which is also written to the
+`## Metrics` section of the report:
+
+- **Per step:** status, wall-clock duration, time spent waiting on the model, number of
+  model calls, input/output/total tokens, and output tokens per second.
+- **Per agent:** calls, model time, total tokens, and output tokens per second.
+- **Run totals:** total duration, total tokens, and throughput.
+
+Throughput is measured against model time only, counting just the calls that reported
+token usage, so browser time and failed requests don't lower it. Token counts come from
+the `usage` field the model server returns; if a server omits it, the summary says the
+counts are incomplete. The raw numbers are also published as a `workflow.metrics` event
+in the transcript ([`src/metrics.js`](src/metrics.js)).
 
 ### Test config format
 
@@ -181,6 +201,7 @@ tasks you can turn into test configs.
 src/
   index.js              test runner / pipeline orchestration
   config.js             CLI parsing and test-config loading
+  metrics.js            run timing and token metrics
   agents/               Agent base class, Explorer, Subject, Translator, Filter,
                         Planner, Proctor, MessageQueue, Reporter
   browser/              BrowserClient (Playwright) and the command schema

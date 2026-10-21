@@ -6,6 +6,24 @@ import { z } from 'zod';
 export const DEFAULT_CONFIG_PATH = 'tests/profile.json';
 export const DEFAULT_REPORTS_PATH = 'reports';
 
+export const CLI_HELP = `Usage: node src/index.js [options]
+
+Run a JSON test suite using the browser agents.
+With no arguments, display this help without running tests.
+
+Options:
+  -h, --help        Show this help and exit
+  --config <path>   Test config JSON (default: ${DEFAULT_CONFIG_PATH})
+  --reports <dir>   Report output directory (default: ${DEFAULT_REPORTS_PATH})
+  --headless        Run without a browser window or the Enter prompt
+
+Examples:
+  node src/index.js --config tests/profile.json
+  npm start -- --headless --config tests/shop-and-tasks.json --reports reports
+
+Start the target website and configure the model server before running a suite.
+`;
+
 export const envSchema = z.strictObject({
   OPENAI_API_KEY: z.string().optional(),
   OPENAI_BASE_URL: z.string().optional(),
@@ -32,6 +50,7 @@ export function parseCliArgs(args = process.argv.slice(2)) {
   const { values } = parseArgs({
     args,
     options: {
+      help: { type: 'boolean', short: 'h', default: args.length === 0 },
       headless: { type: 'boolean', default: false },
       config: { type: 'string', default: DEFAULT_CONFIG_PATH },
       reports: { type: 'string', default: DEFAULT_REPORTS_PATH },

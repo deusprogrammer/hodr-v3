@@ -4,17 +4,30 @@ import { Subject } from "./agents/subject.js";
 import { Translator } from "./agents/translator.js";
 import { Reporter } from "./agents/reporter.js";
 import { MessageQueue } from "./agents/message-queue.js";
-import { applyEnvOverrides, loadTestConfig, parseCliArgs } from "./config.js";
+import { RunMetrics, formatMetrics } from "./metrics.js";
+import { CLI_HELP, applyEnvOverrides, loadTestConfig, parseCliArgs } from "./config.js";
 import { createInterface } from "node:readline/promises";
 import { stdin, stdout } from "node:process";
 
-const options = parseCliArgs();
-const config = await loadTestConfig(options.config);
+let options;
+let config;
+try {
+    options = parseCliArgs();
+    if (options.help) {
+        console.log(CLI_HELP);
+        process.exit(0);
+    }
+    config = await loadTestConfig(options.config);
+} catch (error) {
+    console.error(`Error: ${error.message}\n\n${CLI_HELP}`);
+    process.exit(1);
+}
 // Must run before agents are constructed, since they read process.env.
 applyEnvOverrides(config.env);
 
 const messageQueue = new MessageQueue();
 let reporter = new Reporter({ messageQueue });
+const runMetrics = new RunMetrics({ messageQueue });
 let explorer = new Explorer({ messageQueue });
 let subject = new Subject({ messageQueue });
 let translator = new Translator({ messageQueue });
@@ -68,8 +81,13 @@ try {
         error: { name: error.name, message: error.message, stack: error.stack },
     });
 } finally {
+    const metrics = runMetrics.summary();
+    runMetrics.close();
+    messageQueue.publish({ type: 'workflow.metrics', metrics });
+    const metricsText = formatMetrics(metrics);
+    console.log("\nRun metrics\n\n" + metricsText + "\n");
     try {
-        const report = await reporter.finish({ directory: options.reports, task: suite });
+        const report = await reporter.finish({ directory: options.reports, task: suite, metrics: metricsText });
         console.log("Agent report saved to: " + report.path);
     } catch (error) {
         errors.push(error);

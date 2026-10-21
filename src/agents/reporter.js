@@ -32,7 +32,7 @@ export class Reporter {
   /**
    * Stops listening and persists the detailed transcript without model calls.
    */
-  async finish({ directory = 'reports', task = '' } = {}) {
+  async finish({ directory = 'reports', task = '', metrics = '' } = {}) {
     if (this.#finishing) throw new Error('Reporter.finish() may only be called once.');
     this.#finishing = true;
     this.close();
@@ -42,8 +42,9 @@ export class Reporter {
       `run-${new Date().toISOString().replace(/[:.]/g, '-')}-${randomUUID()}.md`);
     const transcript = events.map((event) =>
       `### Event ${event.sequence}: ${event.type}\n\n${jsonBlock(event)}`).join('\n\n');
+    const metricsSection = metrics ? `## Metrics\n\n\`\`\`text\n${metrics}\n\`\`\`\n\n` : '';
     const report =
-      `# Agent run report\n\n## Task\n\n${jsonBlock(task)}\n\n## Detailed transcript\n\n${transcript || 'No events recorded.'}\n`;
+      `# Agent run report\n\n## Task\n\n${jsonBlock(task)}\n\n${metricsSection}## Detailed transcript\n\n${transcript || 'No events recorded.'}\n`;
     await writeFile(path, report, 'utf8');
     return { path };
   }
