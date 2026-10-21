@@ -1,0 +1,18 @@
+{
+    "name": "Shop and task checklist",
+    "env": {},
+    "steps": [
+        {
+            "url": "http://localhost:5173/",
+            "task": "Add a Reading lamp to the cart."
+        },
+        {
+            "url": "http://localhost:5173/",
+            "task": "Add a new task called \"Water the plants\" to the task checklist."
+        },
+        {
+            "url": "http://localhost:5173/",
+            "task": "Increase the counter twice and mark the playground as a favorite."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Help page support request",
+    "env": {
+        "SUBJECT_MODEL": "qwen3:8b",
+        "TRANSLATOR_MODEL": "qwen3:8b"
+    },
+    "steps": [
+        {
+            "url": "http://localhost:5173/help.html",
+            "task": "Send a support request with the support topic 'Accessibility', the reply email 'jordan@example.com', and the support message 'The cart buttons are hard to find with a screen reader.'"
+        }
+    ]
+}

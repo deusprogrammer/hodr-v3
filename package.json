@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dump": "node src/dump-a11y.js"
+    "dump": "node src/examples/dump-a11y.js",
+    "start": "node src/index.js",
+    "test:agents": "node --test src/**/*.test.js"
   },
   "keywords": [],
   "type": "module",

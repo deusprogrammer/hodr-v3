@@ -1,0 +1,10 @@
+{
+    "name": "Profile",
+    "env": {},
+    "steps": [
+        {
+            "url": "http://localhost:5173/",
+            "task": "Create a profile for Alex Morgan and submit it."
+        }
+    ]
+}
