@@ -147,8 +147,7 @@ page ──snapshot──▶ Explorer ──section──▶ interactive element
 3. **Interactive filter.** The runner keeps only actionable roles (button, link, textbox,
    searchbox, combobox, listbox, checkbox, radio, switch, spinbutton, slider, tab,
    menuitem) that have a ref. This keeps the prompt small without relying on a model to
-   pick roles. The older model-based `Filter` agent sometimes dropped required roles such
-   as `combobox`, so it is no longer part of the pipeline.
+   pick roles.
 4. **Subject** ([`src/agents/subject.js`](src/agents/subject.js)) role-plays a user: given
    the task and the elements, it describes in prose what it would do, citing refs
    ("I select combobox e29 and choose 'Accessibility', type … into textbox e31 …").
@@ -222,7 +221,7 @@ src/
   index.js              test runner / pipeline orchestration
   config.js             CLI parsing and test-config loading
   metrics.js            run timing and token metrics
-  agents/               Agent base class, Explorer, Subject, Translator, Filter,
+  agents/               Agent base class, Explorer, Subject, Translator,
                         Planner, Proctor, MessageQueue, Reporter
   browser/              BrowserClient (Playwright) and the command schema
   examples/             standalone scripts
