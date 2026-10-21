@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "dump": "node src/examples/dump-a11y.js",
-    "start": "node src/index.js",
-    "test:agents": "node --test src/**/*.test.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "type": "module",

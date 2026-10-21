@@ -173,7 +173,6 @@ tasks you can turn into test configs.
 
 | Command | Description |
 | --- | --- |
-| `npm run test:agents` | Unit tests (Node's built-in test runner) |
 | `npm run dump -- <url>` | Print a page's accessibility tree as YAML |
 
 ## Project layout
